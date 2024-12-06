@@ -1,0 +1,19 @@
+.navbar {
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    min-width: 150px;
+    text-align: center;
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        position: static;
+        float: none;
+    }
+}
